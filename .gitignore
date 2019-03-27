@@ -1,0 +1,5 @@
+./pgdata
+*.sw?
+*.pyc
+hello_world/request_count.txt
+hello_world/db.sqlite3
