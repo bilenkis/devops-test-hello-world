@@ -16,3 +16,6 @@ You choose how to realise any aspect doesn't mentioned
 * E2E-tests to check right application dockerization
 
 Good to have README.md describing realisation and/or steps to run the application
+
+# Result
+see [ RESULT.md ]( RESULT.md )
