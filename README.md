@@ -20,4 +20,5 @@ Good to have README.md describing realisation and/or steps to run the applicatio
 # Result
 Run application using:
 
-1. [ Bare python3 ]( PYTHON.md )
+* [ Bare python3 ]( PYTHON.md )
+* [ Docker ]( DOCKER.md )

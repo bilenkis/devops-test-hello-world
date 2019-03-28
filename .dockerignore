@@ -1,3 +1,4 @@
+./pgdata
 *.sw?
 *.pyc
 hello_world/request_count.txt

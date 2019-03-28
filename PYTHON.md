@@ -1,31 +1,22 @@
 # Hello-world cloud native application
 This is a simple hello-world application. It was created to demonstrate DevOps skills.
 
-# Run using Python3
-You can run this awesome application without any virtualization
-or containerization
+# Run using Docker
+You can run this awesome application using docker
 
 ## Requirements
-* Python3
+* docker
 
 ## Steps
-1. Create venv
+1. Build image
 ```sh
-python3 -m venv ./venv
+docker build -t hello-world .
 ```
-2. Activate virtual environment
+2. Run a container
 ```sh
-source ./venv/bin/activate
+docker run -d --name hello-world -p 8001:8000 hello-world
 ```
-3. Run migrations
+3. Go to web page
 ```sh
-python3 hello_world/manage.py migrate
-```
-4. Start runserver
-```sh
-python3 hello_world/manage.py runserver
-```
-5. Go to web page
-```sh
-curl http://localhost:8000
+curl http://localhost:8001
 ```
